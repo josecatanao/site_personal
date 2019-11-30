@@ -1,0 +1,79 @@
+margin{margin: 0;padding: 0;}
+
+#inicio{
+    width: 100%;
+    height: 699px;
+    border: 1px solid black;
+    background-image: url(fotos/slide-1.jpg);
+    background-size: cover;
+}
+#inicio_texto{
+    width: 600px;
+    position: relative;
+    top: 30%;
+    left: 86px;
+    
+   
+
+}
+#inicio_texto h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #f47070;
+    font-weight: 900; 
+    font-size: 80px;
+}
+
+#inicio_texto p{
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+#exercicios{
+    width: 100%;
+    height:557px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.card{
+    width: 370px;
+    height: 556px;
+    margin: 0 15px;
+    position: relative;
+    top: -102px;
+    background-color: #232a35;
+    
+    
+}
+.card img{
+    height: 236px;
+}
+.card h3 h2{
+    padding-left: 26px;
+    font-family: 'Montserrat', sans-serif;
+}
+.card h3{
+    font-size: 14px;
+    color: #f47070;
+    font-weight: bold;
+}
+.card h2{
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 26px;
+}
+h2::after{
+    content: "____";
+    display: block;
+    color: #f47070;
+}
+.card p{
+    font-size: 14px;
+    display: block;
+    color: white;   
+    margin-top: 20px; 
+}
+
