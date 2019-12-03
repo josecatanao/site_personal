@@ -57,6 +57,7 @@ body,html{
     position: relative;
     top: -102px;
     background-color: #232a35;
+    border: none;
     
     
 }
@@ -117,20 +118,89 @@ h2::after{
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
 }
+#bloco2{
+    width: 100%;
+    height: 540px;
+    position: relative;
+    border-bottom: 1px solid rgb(207, 207, 207);
+}
+#texto-bloco2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+#texto-parceiros{
+    width: 600px;
+    height:500px;
+    margin-top: 20px;
+    margin-right: 15px;
+    text-align: justify;
+}
+#texto-parceiros h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #f47070;
+    font-weight: 900;
+    margin-top: 50px; 
+    font-size: 50px;
+}
+#texto-parceiros h1::after{
+    content: "____";
+    display: block;
+    color: #f47070;
+}
+#texto-parceiros p{
+    margin-top: 30px;
+    color: grey;
+}
+#texto-bloco2 img{
+    width: 500px;
+    height:500px;
+    margin-top: 20px;
+}
+
+#bloco3{
+    width: 100%;
+    height: 540px;
+    position: relative;
+}
+#texto-bloco3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ::-webkit-scrollbar {
     width: 5px;
   }
   
-
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
-  }
-   
   
   ::-webkit-scrollbar-thumb {
     background:#f47070 ; 
   }
   
-
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
