@@ -4,6 +4,7 @@ body,html{
     scroll-behavior: smooth;
     
 }
+
 #logo{
     width: 70px;
     position: absolute;
@@ -50,7 +51,7 @@ body,html{
     flex-flow: row wrap;
     justify-content: center;
 }
-.card{
+#exercicios .card{
     width: 370px;
     height: 556px;
     margin: 0 15px;
@@ -192,13 +193,107 @@ h2::after{
 
 #bloco4{
     width: 100%;
-    height: 540px;
+    height: 490px;
+}
+#bloco4>h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #f47070;
+    text-align: center;
+    margin: 30px;
+}
+#bloco4>h1::after{
+    content: "____";
+    display: block;
+    color: #f47070;
+}
+#texto-bloco4{
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.depoimentos{
+    width: 600px;
+    height: 200px;
+    position: relative;
+    margin: 5% 20px;
+}
+.depoimentos img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    float: left;
+}
+.texto-depoimentos{
+    width: 400px;
+    float:right;
+    text-align: justify;
+}
+.texto-depoimentos h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #f47070;
+    font-size: 30px;
+}
+.texto-depoimentos p{
    
+    color: grey;
 }
 
+#bloco5{
+    width: 100%;
+    height: 550px;
+    position: relative;
+    background-image: url(fotos/slide-3.jpg);
 
+  
+}
+#bloco5>h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #f47070;
+    text-align: center;
+    padding-top:38px;
+}
 
+#cards-professores{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+#cards-professores .card{
+    width: 220px;
+    height: 400px;
+    margin:3px 25px;
+}
+#cards-professores img{
+    width: 150px;
+    height:150px;
+    border-radius: 100px;
+    margin: 0 auto;
+}
+#cards-professores h5{
+    font-family: 'Montserrat', sans-serif;
+    color: #f47070;
+    text-align: center;
+}
+#cards-professores p{
+    color: grey;
+   
+}
+i{
+    font-size: 30px;
+    color: #f47070;
+    text-align: center;
+    margin: 0 10px;
+}
 
+footer{
+    margin-top: 10px;
+    background-color: #f47070;
+    color: white;
+
+  }
 
 
 
