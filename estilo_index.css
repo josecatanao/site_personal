@@ -250,7 +250,7 @@ h2::after{
 }
 #bloco5>h1{
     font-family: 'Montserrat', sans-serif;
-    color: #f47070;
+    color: white;
     text-align: center;
     padding-top:38px;
 }
@@ -281,6 +281,52 @@ h2::after{
     color: grey;
    
 }
+
+#bloco6{
+    width: 100%;
+    height: 550px;
+    position: relative;
+}
+#bloco6 h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color:#f47070 ;
+    margin-top:30px ;
+}
+
+#cards-planos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#cards-planos .card{
+    width: 300px;
+    height: 400px;
+    margin:10px 25px;
+}
+
+
+#cards-planos .card h2{
+    color: grey;
+    text-align: center;
+}
+#cards-planos .card p{
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 73px;
+}
+
+#cards-planos ul li{
+        list-style-type: circle;
+        font-size: 18px;
+}
+
+
+
 i{
     font-size: 30px;
     color: #f47070;
