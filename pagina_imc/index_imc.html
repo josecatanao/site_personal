@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--https://www.tuasaude.com/calculadora/imc/-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IMC</title>
+    <link href = "https://fonts.googleapis.com/css?family= Roboto & display = swap" rel = "folha de estilo">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="informacoes">
+            <div id="corpo_texto"> 
+            <h1 class="titulos">Calcule o seu IMC</h1>
+            <p>A classificação do índice de massa corporal (IMC), pode ajudar a identificar obesidade ou desnutrição em crianças, adolescentes, adultos e idosos. Além de saber qual é o seu IMC, essa calculadora também indica qual deve ser o seu peso ideal e quantas calorias você deve ingerir para alcançar a sua melhor forma, e assim melhorar sua qualidade de vida, garantindo o seu bem estar.</p>
+            <img id="imagem" src="/pagina_imc/index.html" alt="">
+            <div id="resultado">
+              <h1>Resultado</h1>
+                  <table>
+                      <tr>
+                        <th>Classificação</th>
+                        <th>IMC</th>
+                        <th>PESO</th>
+                      </tr>
+                      <tr id="magreza">
+                        <td>Magreza</td>
+                        <td>< 18.5 </td>
+                        <td>< 53.5kg </td>
+                      </tr>
+                      <tr id="normal">
+                        <td>Normal</td>
+                        <td>18.5 a 24.9 </td>
+                        <td>58.6 a 78.9 Kg</td>
+                      </tr>
+                      <tr id="sobrePeso">
+                        <td>Sobrepeso</td>
+                        <td>24.9 a 30</td>
+                        <td>78.9 a 95.1 Kg</td>
+                      </tr>
+                      <tr id="obesidade">
+                        <td>Obesidade</td>
+                        <td>> 30</td>
+                        <td>> 95.1 Kg</td>
+                      </tr>
+                  </table>
+            </div>
+                  
+              </div>
+            </div>
+        <div id="calculadora">
+            <div id="formulario">
+                <form action="">
+                    <p>Sexo</p>
+                    <button id="mulher" type="button" value="mulher">Mulher</button>
+                    <button id="homem" type="button" value="homem">Homem</button><br><span id="erroSexo"></span>
+                    <p>Idade</p>
+                    <input id="idade" type="text" placeholder="35"><span>anos</span><br><span id="erroIdade"></span>
+                    <p>Altura</p>
+                    <input id="altura" type="text" placeholder="1.60"><span>m</span><br><span id="erroAltura"></span>
+                    <p>Peso</p>
+                    <input id="peso" type="text" placeholder="62.3"><span>Kg</span><br><span id="erroPeso"></span>
+                    <p>Atividade Física</p>
+                    <button id="sedentaria" type="button" value="sedentaria">Sedentaria</button>
+                    <button id="moderada" type="button" value="moderada">Moderada</button>
+                    <button id="intensa" type="button" value="intensa">Intensa</button><br><span id="erroAtividadeFisica"></span>
+                    <button type="button" id="calcular">Calcular</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="jquery-3.4.1.js"></script>
+    <script src="formulario.js"></script>
+    <script src="imc.js"></script>
+</body>
+</html>

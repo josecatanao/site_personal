@@ -59,6 +59,9 @@ body,html{
     top: -102px;
     background-color: #232a35;
     border: none;
+    -webkit-box-shadow:1px 0px 8px 0px rgba(50, 50, 50, 0.67);
+    -moz-box-shadow:1px 0px 8px 0px rgba(50, 50, 50, 0.67);
+    box-shadow:1px 0px 8px 0px rgba(50, 50, 50, 0.67);
     
     
 }
@@ -302,9 +305,12 @@ h2::after{
 }
 
 #cards-planos .card{
-    width: 300px;
-    height: 400px;
+    width: 340px;
+    height: 420px;
     margin:10px 25px;
+    -webkit-box-shadow:1px 0px 8px 0px rgba(50, 50, 50, 0.67);
+    -moz-box-shadow:1px 0px 8px 0px rgba(50, 50, 50, 0.67);
+    box-shadow:1px 0px 8px 0px rgba(50, 50, 50, 0.67);
 }
 
 
@@ -314,17 +320,22 @@ h2::after{
 }
 #cards-planos .card p{
     font-family: 'Montserrat', sans-serif;
-    color: grey;
+    color: #f47070;
     text-align: center;
     font-size: 25px;
     margin-top: 73px;
 }
 
 #cards-planos ul li{
-        list-style-type: circle;
-        font-size: 18px;
+        list-style-type: none;
+        font-size: 17px;
+        margin:10px auto;
 }
-
+.ap{
+    font-size: 15px;
+    display: inline;
+    margin: 3px;
+}
 
 
 i{
