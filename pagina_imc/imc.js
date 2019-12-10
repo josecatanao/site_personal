@@ -29,11 +29,11 @@ $('#calcular').click(function(){
     console.log('imc :'+imc);
     if(imc<18.5 && peso < 53.5){
         $('#magreza').css('background','red');
-    }else if(imc>=16.7 && imc<=24.9 && peso>=53.5 && peso<=72){
+    }else if(imc>=18.5 && imc<=24.9 && peso>=58.5 && peso<=72){
         $('#normal').css('background','green');
-    }else if(imc>=24.9 && imc<=30 && peso>=72 && peso<=86.7){
+    }else if(imc>=24.9 && imc<=30 && peso>=78.9 && peso<=95.1){
         $('#sobrePeso').css('background','yellow');
-    }else if(imc>30. && peso >=86.7){
+    }else{
         $('#obesidade').css('background','red');
     }
 

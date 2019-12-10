@@ -15,12 +15,13 @@
 .titulos{
     font-family: 'Montserrat', sans-serif;
     color: #f47070;
+    font-size: 60px;
 }
 p{
     text-align: justify;
     margin-top: 20px;
-    font-size: 18px;
-    color: rgb(109, 108, 108);
+    font-size: 21px;
+    color: grey;
     font-family: 'Roboto', sans-serif;
 }
 #corpo_texto>img{
@@ -29,7 +30,8 @@ p{
 #calculadora{
     width: 45%;
     height: 645px;
-    background-image: url(/fotos/foto1.jpg);
+    background-image: url(fotos/fotoI2.jpg);
+    background-size: cover;
    
 }
 #formulario{
@@ -42,6 +44,13 @@ p{
     width: 367px;
     margin: 5px auto;
 }
+
+#resultado>h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #f47070;
+    margin:10px 0;
+    text-align: center;
+  }
 form>p{
     color: #6B6B6B;
     font-weight: bolder;
@@ -80,6 +89,18 @@ form>button{
     margin: 15px 0;
     display: block;
 }   
+#ir{
+    text-decoration: none;
+    width: 360px;
+    height: 44px;
+    color: white;
+    background:#E0607A;
+    font-size: 18px;
+    margin: 15px 0;
+    display: block;
+    padding-top: 5px;
+    text-align: center;
+}
 
 #erroIdade,#erroAltura,#erroPeso,#erroSexo,#erroAtividadeFisica{
     color: red;
@@ -112,9 +133,4 @@ form>button{
   }
   #resultado{
       display:none;
-  }
-  #resultado>h1{
-    color: #6c63ff;
-    margin:10px 0;
-    text-align: center;
   }
