@@ -84,12 +84,69 @@
 
 
       <section id="bloco1">
-            <div id="texto-bloco1">
-              <h1>Lorem ipsum dolor</h1>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est quas ab asperiores esse explicabo culpa consectetur ea, fugit soluta necessitatibus blanditiis ducimus sunt nisi quibusdam voluptatibus magnam ex! Quam, expedita!</p>
-              <a type="button" class="btn btn-danger" href="pagina_imc/index_imc.html">Medir o IMC</a>
-            </div>
+        <div id="bloco-resultado">
+              <div id="corpo_texto"> 
+              <h1 class="titulos">CALCULE O SEU IMC</h1>
+              <p>A classificação do índice de massa corporal (IMC), pode ajudar a identificar obesidade ou desnutrição em crianças, adolescentes, adultos e idosos. Além de saber qual é o seu IMC</p>
+              <img id="imagem" src="/pagina_imc/index.html" alt="">
+                    <div id="resultado">
+                          <h1>Resultado</h1>
+                              <table>
+                                  <tr>
+                                    <th>Classificação</th>
+                                    <th>IMC</th>
+                                    <th>PESO</th>
+                                  </tr>
+                                  <tr id="magreza">
+                                    <td>Magreza</td>
+                                    <td>< 18.5 </td>
+                                    <td>< 53.5kg </td>
+                                  </tr>
+                                  <tr id="normal">
+                                    <td>Normal</td>
+                                    <td>18.5 a 24.9 </td>
+                                    <td>58.6 a 78.9 Kg</td>
+                                  </tr>
+                                  <tr id="sobrePeso">
+                                    <td>Sobrepeso</td>
+                                    <td>24.9 a 30</td>
+                                    <td>78.9 a 95.1 Kg</td>
+                                  </tr>
+                                  <tr id="obesidade">
+                                    <td>Obesidade</td>
+                                    <td>> 30</td>
+                                    <td>> 95.1 Kg</td>
+                                  </tr>
+                              </table>
+                              <a type="button" id="ir" href="#">Receitas</a>
+                    </div>
+                    
+              </div>
+         </div>
+
+         <div id="calculadora">
+          <div id="formulario">
+              <form action="">
+                  <p>Sexo</p>
+                  <button id="mulher" type="button" value="mulher">Mulher</button>
+                  <button id="homem" type="button" value="homem">Homem</button><br><span id="erroSexo"></span>
+                  <p>Idade</p>
+                  <input id="idade" type="text" placeholder="35"><span>anos</span><br><span id="erroIdade"></span>
+                  <p>Altura</p>
+                  <input id="altura" type="text" placeholder="1.60"><span>m</span><br><span id="erroAltura"></span>
+                  <p>Peso</p>
+                  <input id="peso" type="text" placeholder="62.3"><span>Kg</span><br><span id="erroPeso"></span>
+                  <p>Atividade Física</p>
+                  <button id="sedentaria" type="button" value="sedentaria">Sedentaria</button>
+                  <button id="moderada" type="button" value="moderada">Moderada</button>
+                  <button id="intensa" type="button" value="intensa">Intensa</button><br><span id="erroAtividadeFisica"></span>
+                  <button type="button" id="calcular">Calcular</button>
+              </form>
+          </div>
+      </div>
       </section>
+
+
 
 
       <section id="bloco2">
@@ -364,6 +421,9 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="jquery-3.4.1.js"></script>
+    <script src="formulario.js"></script>
+    <script src="imc.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
