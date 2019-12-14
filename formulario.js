@@ -1,5 +1,4 @@
 var cont=0;
-alert('por favor utilize " . " na calculadora caso digite " , " ocorrerar um erro ')
 $('#idade').blur(function(){
     if(sexoEscolhido==undefined){
         $('#erroSexo').css('display','block');

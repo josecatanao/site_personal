@@ -14,6 +14,8 @@ body,html{
     color: #f47070;
     font-weight: bold;
 }
+
+/*-----------inicio bloco INICIO--------------*/
 #inicio{
     width: 100%;
     height: 699px;
@@ -30,6 +32,7 @@ body,html{
    
 
 }
+
 #inicio_texto h1{
     font-family: 'Montserrat', sans-serif;
     color: #f47070;
@@ -42,7 +45,18 @@ body,html{
     color: #ffffff;
     margin-top: 30px;
 }
+#inicio_texto span{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 900; 
+    font-size: 80px;
+}
 
+/*-----------fim bloco INICIO--------------*/
+
+
+
+/*-----------inicio bloco EXERCICIOS--------------*/
 #exercicios{
     width: 100%;
     height:557px;
@@ -96,11 +110,10 @@ h2::after{
 }
 
 
-
-/*-----------------------------------------------------*/
-
+/*-----------FIM bloco exercicios INICIO--------------*/
 
 
+/*-----------inicio bloco1 --------------*/
 #bloco1{
     width: 100%;
     height: 520px;
@@ -246,44 +259,20 @@ form>button{
     margin: 15px 0;
     display: block;
 }   
-#ir{
-    font-family: arial;
-    width: 60px;
-    background: green;
-    text-align: center;
-    display: block;
-    padding: 5px 5px;
-    margin: 2px auto;
-    text-decoration: none;
-    color: white;
-    font-size: 15px;
-    border-radius: 5px;
+#resultado>.btn{
+    
+    margin: 20px auto;
 }
 
 #erroIdade,#erroAltura,#erroPeso,#erroSexo,#erroAtividadeFisica{
     color: red;
     display: none;
 }
+/*-----------fim bloco1 EXERCICIOS--------------*/
 
 
 
-
-
-
-
-
-
-/*-----------------------------------------------------*/
-
-
-
-
-
-
-
-
-
-
+/*-----------inicio bloco2 --------------*/
 #bloco2{
     width: 100%;
     height: 540px;
@@ -325,6 +314,10 @@ form>button{
     margin-top: 20px;
 }
 
+/*-----------fim bloco2--------------*/
+
+
+/*-----------inicio bloco3--------------*/
 #bloco3{
     width: 100%;
     height: 440px;
@@ -356,6 +349,13 @@ form>button{
     color: #f47070;
 }
 
+
+
+/*-----------fim bloco3--------------*/
+
+
+
+/*-----------inicio bloco4--------------*/
 #bloco4{
     width: 100%;
     height: 490px;
@@ -366,6 +366,7 @@ form>button{
     text-align: center;
     margin: 30px;
 }
+
 #bloco4>h1::after{
     content: "____";
     display: block;
@@ -405,6 +406,11 @@ form>button{
     color: grey;
 }
 
+/*-----------fim bloco4--------------*/
+
+
+
+/*-----------inicio bloco5--------------*/
 #bloco5{
     width: 100%;
     height: 550px;
@@ -447,6 +453,9 @@ form>button{
    
 }
 
+/*-----------fim bloco5--------------*/
+
+/*-----------inicio bloco6--------------*/
 #bloco6{
     width: 100%;
     height: 550px;
@@ -499,6 +508,7 @@ form>button{
     margin: 3px;
 }
 
+/*-----------fim bloco6--------------*/
 
 i{
     font-size: 30px;

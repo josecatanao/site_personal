@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="estilo_index.css">
+    <link rel="stylesheet" href="responsividade.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:800&display=swap" rel="stylesheet">
     <link rel="icon" type="imagem/png" href="fotos/logo.png" />
     <script src="https://kit.fontawesome.com/347135fd92.js" crossorigin="anonymous"></script>
@@ -43,16 +44,19 @@
       </header>  
 
       <!--fim do header-->
-      
 
+      
+     <!--Inicio texto-->
        <section id="inicio">
             <div id="inicio_texto">
-               <h1 >DESAFIE <span style="color: white;">-SE</span> </h1>
+               <h1 >DESAFIE <span>-SE</span> </h1>
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. , impedit in!,Lorem ipsum dolor sit amet, consectetur adipisicing elit. , impedit in!</p>
             </div>
       </section>
+       <!--Inicio texto-->
 
 
+       <!--Inicio bloco Exercicios-->
 
       <section id="exercicios">
           <div class="card" >
@@ -62,16 +66,15 @@
                 <h2 class="card-text">CICLISMO E CARDIO</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum minima et commodi facere perferendis? Maiores temporibus dolorem possimus hic,.</p>
               </div>
-            </div>
-            <div class="card" >
+          </div>
+          <div class="card" >
                 <img src="fotos/foto2.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h3 class="card-title">FUNCIONAL</h3>
                   <h2 class="card-text">KETTLEBELLS</h2>
-          
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum minima et commodi facere perferendis? Maiores temporibus dolorem possimus hic,.</p>
                 </div>
-              </div>
+          </div>
               <div class="card" >
               <img src="fotos/foto1.jpg" class="card-img-top" alt="...">
               <div class="card-body">
@@ -79,47 +82,49 @@
                 <h2 class="card-text">BOMBA DE CORPO</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum minima et commodi facere perferendis? Maiores temporibus dolorem possimus hic,.</p>
               </div>
-            </div>
+          </div>
       </section>
 
+      <!--fim bloco Exercicios-->
 
+      <!--Inicio bloco1-->
       <section id="bloco1">
         <div id="bloco-resultado">
               <div id="corpo_texto"> 
-              <h1 class="titulos">CALCULE O SEU IMC</h1>
-              <p>A classificação do índice de massa corporal (IMC), pode ajudar a identificar obesidade ou desnutrição em crianças, adolescentes, adultos e idosos. Além de saber qual é o seu IMC</p>
-              <img id="imagem" src="/pagina_imc/index.html" alt="">
-                    <div id="resultado">
-                          <h1>Resultado</h1>
-                              <table>
-                                  <tr>
-                                    <th>Classificação</th>
-                                    <th>IMC</th>
-                                    <th>PESO</th>
-                                  </tr>
-                                  <tr id="magreza">
-                                    <td>Magreza</td>
-                                    <td>< 18.5 </td>
-                                    <td>< 53.5kg </td>
-                                  </tr>
-                                  <tr id="normal">
-                                    <td>Normal</td>
-                                    <td>18.5 a 24.9 </td>
-                                    <td>58.6 a 78.9 Kg</td>
-                                  </tr>
-                                  <tr id="sobrePeso">
-                                    <td>Sobrepeso</td>
-                                    <td>24.9 a 30</td>
-                                    <td>78.9 a 95.1 Kg</td>
-                                  </tr>
-                                  <tr id="obesidade">
-                                    <td>Obesidade</td>
-                                    <td>> 30</td>
-                                    <td>> 95.1 Kg</td>
-                                  </tr>
-                              </table>
-                              <a type="button" id="ir" href="#">Receitas</a>
-                    </div>
+                  <h1 class="titulos">CALCULE O SEU IMC</h1>
+                  <p>A classificação do índice de massa corporal (IMC), pode ajudar a identificar obesidade ou desnutrição em crianças, adolescentes, adultos e idosos. Além de saber qual é o seu IMC. Receba dicas de alimentos personalizados</p>
+                  <img id="imagem" src="/pagina_imc/index.html" alt="">
+                        <div id="resultado">
+                              <h1>Resultado</h1>
+                                  <table>
+                                      <tr>
+                                        <th>Classificação</th>
+                                        <th>IMC</th>
+                                        <th>PESO</th>
+                                      </tr>
+                                      <tr id="magreza">
+                                        <td>Magreza</td>
+                                        <td>< 18.5 </td>
+                                        <td>< 53.5kg </td>
+                                      </tr>
+                                      <tr id="normal">
+                                        <td>Normal</td>
+                                        <td>18.5 a 24.9 </td>
+                                        <td>58.6 a 78.9 Kg</td>
+                                      </tr>
+                                      <tr id="sobrePeso">
+                                        <td>Sobrepeso</td>
+                                        <td>24.9 a 30</td>
+                                        <td>78.9 a 95.1 Kg</td>
+                                      </tr>
+                                      <tr id="obesidade">
+                                        <td>Obesidade</td>
+                                        <td>> 30</td>
+                                        <td>> 95.1 Kg</td>
+                                      </tr>
+                                  </table>
+                                  <a type="button" class="btn btn-danger ir" href="#">Receitas</a>
+                        </div>
                     
               </div>
          </div>
@@ -146,8 +151,11 @@
       </div>
       </section>
 
+      <!--fim bloco1-->
 
 
+
+      <!--Inicio bloco2-->
 
       <section id="bloco2">
           
@@ -162,9 +170,11 @@
             </div>
       </section>
 
+    <!--fim bloco1-->
 
 
 
+      <!--Inicio bloco3-->
 
       <section id="bloco3">
             <div id="texto-bloco3">
@@ -187,8 +197,10 @@
             </div>
       </section>
 
+      <!--fim bloco3-->
 
 
+      <!--Inicio bloco 4-->
 
           <section id="bloco4">
             <h1>DEPOIMENTOS</h1>
@@ -265,11 +277,10 @@
                 </div>
           </section>
 
+          <!--fim bloco4-->
 
 
-
-
-
+          <!--Inicio bloco5-->
 
       <section id="bloco5">
         <h1>PROFESSORES</h1>
@@ -309,10 +320,11 @@
         </div>       
       </section>
 
+      <!--fim bloco5-->
 
 
 
-
+      <!--Inicio bloco6-->
       <section id="bloco6">
         <h1>PLANOS</h1>
         <div id="cards-planos">
@@ -354,68 +366,61 @@
             </div>
         </div>       
       </section>
-
+      <!--Inicio bloco6-->
       
 
+<!--Inicio footer-->
+  <footer class="page-footer font-small mdb-color pt-4 ">
+      <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left mt-3 pb-3">
+              <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">QUAL O OBJETIVO DO SITE ?</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam aliquid veritatis delectus exercitationem sint praesentium. Omnis illo officia magnam deleniti nisi ipsa officiis facere enim illum. Culpa quae tempore debitis.
+            </p>
 
-
-
-
-
-
-
-
-
-<footer class="page-footer font-small mdb-color pt-4 ">
-    <div class="container text-center text-md-left">
-      <div class="row text-center text-md-left mt-3 pb-3">
-            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-          <h6 class="text-uppercase mb-4 font-weight-bold">QUAL O OBJETIVO DO SITE ?</h6>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam aliquid veritatis delectus exercitationem sint praesentium. Omnis illo officia magnam deleniti nisi ipsa officiis facere enim illum. Culpa quae tempore debitis.
-          </p>
-
+          </div>
         </div>
-      </div>
-      <hr>
-      <div class="row d-flex align-items-center">
-        <div class="col-md-7 col-lg-8">
-          <p class="text-center text-md-left">© 2018 Copyright:
-              <strong> "ADS 2019.1   
-              </strong>
-          </p>
-          <STRONG>J.C.N.S WEB SITES
-          </STRONG>
-        </div>
-        <div class="col-md-5 col-lg-4 ml-lg-0">
-          <div class="text-center text-md-right">
-            <ul class="list-unstyled list-inline">
-              <li class="list-inline-item">
-                <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                  <i class="fab fa-google-plus-g"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
+        <hr>
+        <div class="row d-flex align-items-center">
+          <div class="col-md-7 col-lg-8">
+            <p class="text-center text-md-left">© 2018 Copyright:
+                <strong> "ADS 2019.1   
+                </strong>
+            </p>
+            <STRONG>J.C.N.S WEB SITES
+            </STRONG>
+          </div>
+          <div class="col-md-5 col-lg-4 ml-lg-0">
+            <div class="text-center text-md-right">
+              <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">
+                  <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                    <i class="fab fa-google-plus-g"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 
+    <!--fim footer-->
       
 
 
