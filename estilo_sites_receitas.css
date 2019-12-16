@@ -1,0 +1,104 @@
+/*começo do reader*/
+html{
+	overflow-x: hidden;
+}
+#header{
+	width: 100%;
+	height: 450px;
+	background-image: url(fotos/fotop.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+	align-items: center
+}
+#texto_header{
+	width: 600px;
+	position: relative;
+	text-align: center;
+	border:1px solid black;
+}
+
+#texto_header> h1{
+	font-size: 48px;
+	font-weight: bolder;
+	color: white;
+}
+#texto_header> p{
+	font-size: 20px;
+	font-weight: bolder;
+	color: white;
+	overflow: hidden;
+	transition: 3s;
+}
+
+/*fim do reader*/
+
+
+
+
+/*começo de pratos*/
+*{margin:0;padding:0;}
+
+.bloco-principal{
+	width: 100%;
+	height: 280px;
+  	display: flex;
+  	flex-direction: row;
+  	justify-content: center;
+	align-items: center;
+  	margin:0 10px;
+}
+
+.receitas{
+   width: 300px;
+	height: 200px;
+   overflow: hidden;
+   margin: 0 10px;
+	transition: 0.5s;
+	position:relative;
+	text-align: center;
+	background: white;
+	border: 1px solid grey;
+}
+
+.receitas img{
+  width: 300px;
+	height: 200px;
+}
+.receitas h3{
+  text-align: center;
+  margin:7px;
+}
+
+#bloco-principal ul{
+  text-align: center;
+  list-style:none;
+  margin:5px;
+}
+
+#bloco-principal ul li{
+  margin:5px;
+}
+
+
+.receitas:hover{
+	 height: 430px;
+	 z-index: 1;
+}
+/*fim de pratos*/
+
+
+
+
+
+
+
+
+
+
+
+
+
