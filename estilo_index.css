@@ -1,5 +1,10 @@
 margin{margin: 0;padding: 0;}
 
+body,html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;    
+}
+
 #logo{
     width: 70px;
     position: absolute;
