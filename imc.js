@@ -41,7 +41,17 @@ $('#calcular').click(function(){
         $('#receitas').attr('href', 'receitas_acima_do_peso.html');
     }
 
-
+    
+    if(sexoEscolhido == 'mulher'){
+        var altx =$('#altura').val();
+        alt=altx.replace(".", "");
+        var altcerto=parseInt(alt);
+        var resu = ((altcerto - 100) * 0.85);
+        console.log("peso ideal: "+resu);
+        $("#pe").text(resu+" Kg");
+        $('#peso-ideal').css('display','block');
+    }
+    
 
 
 
