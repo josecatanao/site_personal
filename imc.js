@@ -50,6 +50,14 @@ $('#calcular').click(function(){
         console.log("peso ideal: "+resu);
         $("#pe").text(resu+" Kg");
         $('#peso-ideal').css('display','block');
+    }else if(sexoEscolhido == 'homem'){
+        var altx =$('#altura').val();
+        alt=altx.replace(".", "");
+        var altcerto=parseInt(alt);
+        var resu = ((altcerto - 100) * 0.90);
+        console.log("peso ideal: "+resu);
+        $("#pe").text(resu+" Kg");
+        $('#peso-ideal').css('display','block');
     }
     
 
