@@ -64,7 +64,7 @@ body{
 	position:relative;
 	text-align: center;
 	background: white;
-	border: 1px solid grey;
+	border: 3px solid grey;
 	-webkit-box-shadow:1px 0px 8px 0px rgba(50, 50, 50, 0.67);
     -moz-box-shadow:1px 0px 8px 0px rgba(50, 50, 50, 0.67);
     box-shadow:1px 0px 8px 0px rgba(50, 50, 50, 0.67);
@@ -91,8 +91,8 @@ body{
 
 
 .receitas:hover{
-	 height: 430px;
-	 z-index: 1;
+	border: 3px solid red;
+	box-shadow:1px 0px 8px 0px rgba(204, 7, 7, 0.67);
 }
 /*fim de pratos*/
 
